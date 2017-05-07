@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="button_colors">
+        <item>@color/colorAccent</item>
+        <item>@color/colorBeige</item>
+        <item>@color/colorBlue</item>
+        <item>@color/colorGreen</item>
+        <item>@color/colorPrimary</item>
+        <item>@color/colorPrimaryDark</item>
+        <item>@color/colorRed</item>
+        <item>@color/colorViolet</item>
+        <item>@color/colorWhite</item>
+        <item>@color/colorYellow</item>
+    </array>
+</resources>
