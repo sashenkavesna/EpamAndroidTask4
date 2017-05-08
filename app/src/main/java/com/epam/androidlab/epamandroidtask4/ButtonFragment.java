@@ -86,7 +86,6 @@ public class ButtonFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-
         if (savedInstanceState != null) {
             ArrayList<Integer> colors = savedInstanceState.getIntegerArrayList(KEY);
             for (int i = 0; i < colors.size(); i++) {
@@ -98,9 +97,6 @@ public class ButtonFragment extends Fragment {
     @Override
     public void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-
         outState.putIntegerArrayList(KEY, buttonColors);
     }
-
-
 }
